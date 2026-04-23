@@ -8,6 +8,14 @@ Desktop client for Google Classroom with AI features.
 - AI Assistant
 - Digital Notebook
 
+## Roadmap
+
+- [x] Basic Classroom client
+- [x] Focus Mode
+- [ ] Backend auth
+- [ ] AI assistant
+- [ ] Plugin system
+      
 ## Setup
 
 1. Install dependencies
@@ -21,7 +29,7 @@ npm run dev
 Create OAuth Desktop App in Google Cloud and set:
 
 GOOGLE_CLIENT_ID=your_id
-
+GOOGLE_CLIENT_SECRET=your_secret
 ## Build
 
 npm run dist
