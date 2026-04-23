@@ -35,3 +35,4 @@ GOOGLE_CLIENT_SECRET=your_secret
 
 npm run dist
 
+Since this project was made by Github Copilot, there are a lot of bugs and errors.
