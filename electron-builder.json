@@ -1,0 +1,34 @@
+{
+  "appId": "com.openclass.beta",
+  "productName": "OpenClass Beta",
+  "directories": {
+    "buildResources": "build",
+    "output": "dist"
+  },
+  "files": [
+    "out/**/*",
+    "plugins/**/*"
+  ],
+  "extraResources": [
+    {
+      "from": "plugins",
+      "to": "plugins",
+      "filter": ["**/*"]
+    }
+  ],
+  "mac": {
+    "target": ["dmg", "zip"],
+    "category": "public.app-category.education"
+  },
+  "win": {
+    "target": ["nsis", "zip"]
+  },
+  "linux": {
+    "target": ["AppImage", "deb"],
+    "category": "Education"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+}
