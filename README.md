@@ -29,6 +29,7 @@ npm run dev
 Create OAuth Desktop App in Google Cloud and set:
 
 GOOGLE_CLIENT_ID=your_id
+
 GOOGLE_CLIENT_SECRET=your_secret
 ## Build
 
